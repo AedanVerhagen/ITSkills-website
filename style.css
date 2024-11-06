@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+#main {
+  font-family: "Goldman", cursive;
+  background-image: url("./img/background.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: black;
+}
+.white {
+  font-family: "Goldman", cursive;
+  background-color: white;
+}
+.black {
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
+#contact {
+  font-family: "Goldman", cursive;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+} 
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.dropdown .dropbtn {
+  /* min-height: 10vh; */
+  font-size: 2.5rem;
+  color: white;
+  padding: 5.3vh;
+  background-color: inherit;
+}
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: #00a8c7;
+}
+.dropdown-content {
+  margin-top: 4.8rem;
+  display: none;
+  flex-direction: column;
+  font-size: 2.5rem;
+  position: absolute;
+  background-color: white;
+}
+.dropdown-content a {
+  float: none;
+  color: #00a8c7;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #E9E9E9;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+main {
+  margin: auto;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+main h1 {
+  display: inline-block;
+  width: 99vw;
+  font-size: 6rem;
+}
+main h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+main p {
+  text-align: left;
+  line-height: 2rem;
+}
+main article {
+  float: left;
+  width: 40vw;
+  margin: 5vw;
+}
+.white main {
+  color: black;
+  top: 15%;
+}
+.white main img {
+  float: left;
+  width: 30vw;
+  margin: 5vw;
+}
+.black main {
+  color: white;
+  top: 15%;
+}
+.black main img {
+  float: right;
+  width: 30vw;
+  margin: 5vw;
+}
+#contact main {
+  color: black;
+  top: 15%;
+}
+#formContainer {
+  margin-left: 25vw;
+  width: 50vw;
+  text-align: left;
+}
+#formContainer input {
+  width: 50vw;
+  border-radius: 0.5rem;
+  height: 4vh;
+  margin-bottom: 2vh;
+}
+#formContainer input#berichtInput {
+  height: 10vh;
+}
+#submit {
+  background-color: #00a8c7;
+  border: 0;
+  color: white;
+  font-family: "Goldman", cursive;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  margin: auto;
+  background: #00a8c7;
+  position: fixed;
+  bottom: 0;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body id="contact">
+    <nav>
+      <a href="index.html"><img src="./img/hacker.png" id="logo" /></a>
+      <ul>
+        <li><a href="HTMLCSS.html">HTML/CSS</a></li>
+        <li><a href="Javascript.html">Javascript</a></li>
+        <li><a href="PHP.html">PHP</a></li>
+        <li><a href="SQL.html">SQL</a></li>
+        <div class="dropdown">
+          <a href="contact.html" class="dropbtn">Jaar 2</a>
+          <div class="dropdown-content">
+            <a href="#">OOP</a>
+            <a href="#">Laravel</a>
+            <a href="#">Testen</a>
+          </div>
+        </div>
+      </ul>
+    </nav>  
+    <main>
+      <h1>Contact</h1>
+      <div id="formContainer">
+        <form action="">
+          <label for="name">Naam</label>
+          <input type="text" name="name" pattern="[A-Za-z]">
+          <label for="e-mail">E-mail</label>
+          <input type="email" name="e-mail">
+          <label for="note">Bericht</label>
+          <input type="text" id="berichtInput" name="note">
+          <input type="submit" id="submit" value="Versturen">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h2>Copyright Techniek College Rotterdam</h2>
+    </footer>
+  </body>
+</html>
